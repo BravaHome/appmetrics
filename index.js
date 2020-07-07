@@ -381,7 +381,7 @@ if (global.Appmetrics) {
   };
   // Require the Node.js DC, when appmetrics is fully initialised.
   try {
-    require('ibmapm-embed');
+    //require('ibmapm-embed');
   } catch (err) {
     console.log('Error initializing APM');
   }
